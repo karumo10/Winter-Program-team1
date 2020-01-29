@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			A_Little_Game
+		</title>
+	</head>
+	<body>
+		<h1>
+			A Little Game
+		</h1>
+		<br>
+		<h4>
+			This is a little game redesigned and implemented by a group of students
+		<h4>
+		<br>
+		<h2>
+			Now here are a few tips about how to play the game
+		</h2>
+			<ul>
+				<li>The character that you are controlling is represented as a (). You can control it via these keys: </li>
+				<ul>
+					<li>() for upper left</li>
+					<li>() for upper right</li>
+					<li>() for left</li>
+					<li>() for right</li>
+					<li>() for lower left</li>
+					<li>() for lower right</li>
+				</ul>
+				<li>What you are gonna do is to steal the rectangle and safely return to where you start</li>
+				<li>The machine gun is represented as a (). It will kill the invader immediately! You should never be seen by it!</li>
+				<li>The enemies are represented as (). They will run to catch the invader! You should never be caught up by them!</li>
+			</ul>
+		<br>
+
+
+		<br><br><br>
+
+		<canvas id="myCanvas" width="1000" height="400" style="border:1px solid">Your browser does not support the HTML5 canvas tag.</canvas>
+
+		<script type="text/javascript">
+			var c=document.getElementById("myCanvas");
+			var draw=c.getContext("2d");
+			draw.strokeStyle="#000000";
+				draw.moveTo(92,80);
+				draw.lineTo(138,160);
+				draw.lineTo(874,160);
+				draw.lineTo(828,80);
+			draw.stroke();
+			draw.strokeStyle="#000000";
+				draw.moveTo(276,240);
+				draw.lineTo(828,240);
+			draw.stroke();
+			draw.strokeStyle="#000000";
+				draw.moveTo(276,240);
+				draw.lineTo(322,160);
+				draw.lineTo(368,240);
+				draw.lineTo(414,160);
+				draw.lineTo(460,240);
+				draw.lineTo(506,160);
+				draw.lineTo(552,240);
+				draw.lineTo(598,160);
+				draw.lineTo(644,240);
+				draw.lineTo(690,160);
+				draw.lineTo(736,240);
+				draw.lineTo(782,160);
+				draw.lineTo(828,240);
+				draw.lineTo(874,160);
+			draw.stroke();
+			draw.strokeStyle="#000000";
+				draw.moveTo(552,80);
+				draw.lineTo(598,160);
+			draw.stroke();
+			draw.strokeStyle="#000000";
+				draw.moveTo(552,240);
+				draw.lineTo(598,320);
+				draw.lineTo(690,320);
+				draw.lineTo(644,240);
+			draw.stroke();
+			draw.strokeStyle="#000000";
+				draw.moveTo(552,240);
+				draw.lineTo(598,320);
+				draw.lineTo(690,320);
+				draw.lineTo(644,240);
+			draw.stroke();
+			draw.strokeStyle="#000000";
+				draw.moveTo(736,240);
+				draw.lineTo(690,320);
+				draw.lineTo(782,320);
+				draw.lineTo(828,240);
+			draw.stroke();
+			draw.strokeStyle="#000000";
+				draw.moveTo(598,320);
+				draw.lineTo(782,320);
+			draw.stroke();
+		</script>
+	</body>
+</html>
