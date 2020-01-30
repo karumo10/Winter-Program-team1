@@ -87,9 +87,10 @@
 
 				var time = null;
 
-				time = setInterval(round, 1000/20);
+				time = setInterval(round, 5000);
 
 				function round(){
+					draw.clearRect(0,0,c.width,c.height);
 					if (a == true || w == true || e ==true || d == true || x == true || z == true){
 						if(m1r == false){
 
