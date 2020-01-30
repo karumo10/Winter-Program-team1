@@ -1,0 +1,24 @@
+if ( plx == 598 && ply == 160)
+{
+    lose = true;
+}
+else if((plx == 644) && (ply == 240))
+{
+	if((m1x != 598)|(m1y != 160))
+	{	
+			lose = true;
+    }
+}
+else if((p1x == 690) && (ply == 320))
+{
+	lose = true;
+	if((m1x == 598)&&(m1y == 160))
+	{
+	    lose = false;
+	}
+	else if(((m1x == 644)&&(m1y == 240))|((m2x == 644)&&(m2y == 240)))
+    {
+		lose = false;
+	}
+}
+		
